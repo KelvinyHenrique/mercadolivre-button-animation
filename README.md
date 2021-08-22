@@ -1,6 +1,63 @@
-# mercadolivre-button-animation
 
-## Project setup
+
+<h1 align="center">Mercado Livre Button Load Animation</h1>
+<br/>
+<br/>
+
+<p align="center">
+<img src="./src/assets/button-animation.gif"/>
+</p>
+<br/>
+<br/>
+
+### Propriedades 🚀
+
+<br/>
+
+```javascript
+    title: {
+      type: String,
+      default: "Button",
+    },
+    loading: {
+      type: Boolean,
+      default: false,
+    },
+    loadingTime: {
+      type: Number,
+      default: 1,
+    },
+    bgProgress: {
+      type: String,
+      default: "#5c95ff",
+    },
+    hoverBackground: {
+      type: String,
+      default: "#3483facc",
+    },
+    textColor: {
+      type: String,
+      default: "#FFF",
+    },
+    textHoverColor: {
+      type: String,
+      default: "#FFF",
+    },
+    background: {
+      type: String,
+      default: "#3483fa",
+    },
+    fontSize: {
+      type: String,
+      default: "16px",
+    },
+    borderRadius: {
+      type: String,
+      default: "4px",
+    },
+```
+
+
 ```
 npm install
 ```
